@@ -1,0 +1,31 @@
+{
+	"geode": "v5.9.0",
+	"gd": {
+		"win": "*"
+	},
+	"id": "kontext.predictive-input-buffer",
+	"name": "Predictive Input Buffer",
+	"version": "v1.0.0",
+	"developer": "kontext",
+	"description": "Korekta zbyt wczesnych klikniec: mod trzyma klikniecie do wlasciwego momentu.",
+	"tags": ["gameplay", "utility"],
+	"settings": {
+		"buffer-on": {
+			"type": "bool",
+			"name": "Wlacz bufor klikniec",
+			"description": "Gdy klikniesz za wczesnie, mod utrzyma klikniecie do chwili ladowania / dotkniecia orba.",
+			"default": true
+		},
+		"window-ms": {
+			"type": "int",
+			"name": "Okno buforowania (ms)",
+			"description": "Jak dlugo mod moze trzymac za wczesne klikniecie. Wiecej = wieksza tolerancja, ale ryzyko niechcianego skoku.",
+			"default": 100,
+			"min": 20,
+			"max": 250,
+			"control": {
+				"slider": true
+			}
+		}
+	}
+}

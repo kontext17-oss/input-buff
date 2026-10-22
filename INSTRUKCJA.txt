@@ -1,0 +1,17 @@
+PREDICTIVE INPUT BUFFER - INSTRUKCJA (Windows 11, Geode)
+
+KROK 1 - Kompilacja (raz, ok. 5-10 minut, wszystko dzieje sie na GitHubie)
+ 1. Wejdz na github.com i zaloz darmowe konto (jesli nie masz).
+ 2. Kliknij "New repository", nazwa np. input-buffer, ustaw Public, kliknij Create.
+ 3. Kliknij "uploading an existing file" i przeciagnij WSZYSTKIE rozpakowane pliki z tego folderu
+    (razem z folderami src i .github - folder .github jest ukryty, wlacz "Pokaz ukryte elementy" w Eksploratorze).
+ 4. Kliknij "Commit changes".
+ 5. Wejdz w zakladke "Actions" - ruszy budowanie "Zbuduj moda". Poczekaj na zielony ptaszek.
+ 6. Kliknij na zakonczone zadanie, na dole w "Artifacts" pobierz "gotowy-mod" (to zip z plikiem .geode).
+
+KROK 2 - Instalacja
+ 1. Rozpakuj pobrany zip, wrzuc plik .geode obok instaluj.bat.
+ 2. Dwuklik na instaluj.bat - sam znajdzie Geometry Dash i skopiuje moda.
+ 3. Uruchom gre. Ustawienia: Geode > Mody > Predictive Input Buffer.
+
+JESLI BUDOWANIE SIE WYSYPIE: skopiuj tekst bledu z zakladki Actions i wklej mi go w czacie.
