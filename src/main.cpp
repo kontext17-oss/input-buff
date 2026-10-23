@@ -15,7 +15,7 @@ namespace {
 	template <class T>
 	bool touchingRing(T* p) {
 		if constexpr (requires { p->m_touchedRing; }) {
-			return p->m_touchedRing != nullptr;
+			return static_cast<bool>(p->m_touchedRing);
 		}
 		else if constexpr (requires { p->m_touchedRings; }) {
 			return !p->m_touchedRings.empty();
